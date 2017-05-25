@@ -60,7 +60,7 @@ static struct led_device_t led_dev =
 {
     .common = 
     {
-	.led_close = led_close,
+	.close = led_close,
     },
     .led_open  = led_open,
     .led_ctrl  = led_ctrl,
